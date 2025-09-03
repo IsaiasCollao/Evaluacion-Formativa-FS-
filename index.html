@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Genérica</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda Genérica</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catalogo</a></li>
+                <li><a href="#">Iniciar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Creación de cuenta</h2>
+            <form id="formulario">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                    <div class="form-group">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <input type="submit" value="Submit">
+                <p id="errores" style="color: red;"></p> 
+            </form>
+        </section>
+
+        <article>
+            <input type="checkbox">
+            <p>acepto los terminos y condiiciones</p>
+            <a href="#">temrinos y condiciones</a>
+        </article>
+    </main>
+
+
+        <script src="script.js"></script>
+</body>
+
+    <footer>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</html>

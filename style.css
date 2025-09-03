@@ -1,0 +1,90 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: steelblue;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid purple;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+
+section {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+article, footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
